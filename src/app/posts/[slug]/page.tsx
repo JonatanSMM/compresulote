@@ -18,7 +18,7 @@ interface Params {
     slug: string
   }
 }
-
+//function generate
 export async function generateMetadata(params: Params): Promise<Metadata> {
   const post = await getData(params)
 
